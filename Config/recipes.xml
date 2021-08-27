@@ -1,0 +1,38 @@
+<config>
+	<append xpath="/recipes">
+	
+		<recipe name="tnt" count="1" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceForgedIron" count="4"/>
+			<ingredient name="resourceGunPowder" count="50"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+		</recipe>
+		
+		<recipe name="tntDynamiteStick" count="1" craft_time=".5">
+			<ingredient name="thrownDynamite" count="1"/>
+		</recipe>
+		
+		<recipe name="tntChainer" count="1" craft_area="workbench" craft_time="5">
+			<ingredient name="resourceScrapIron" count="5"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+			<ingredient name="resourceSpring" count="1"/>
+		</recipe>
+		
+		<recipe name="tntDetcordVariantHelper" count="1" craft_time="1">
+			<ingredient name="resourcePaper" count="5"/>
+			<ingredient name="resourceYuccaFibers" count="5"/>
+			<ingredient name="resourceGunPowder" count="1"/>
+		</recipe>
+		
+		<recipe name="tntDetonator" count="1" craft_area="workbench" craft_time="30">			
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+			<ingredient name="resourceElectricParts" count="2"/>
+		</recipe>
+		
+		<recipe name="tntDetonatorFuseAmmo" count="1" craft_time="1">			
+			<ingredient name="resourceScrapIron" count="5"/>
+		</recipe>
+	
+	</append>
+</config>

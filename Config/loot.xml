@@ -1,0 +1,23 @@
+<config>
+
+<append xpath="/lootcontainers/lootgroup[name='schematicsWeaponsArmorT1']">
+	<item name="tntSchematic"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[name='groupQuestAmmo']">
+	<item name="tnt" count="3" loot_prob_template="QuestT3Prob"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[name='groupWeaponsT3_Demolitionist']">
+	<item name="tnt" count="1,2"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[name='twitch_explosivesT2']">
+	<item name="tnt" count="1,2"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[name='twitch_explosivesT3']">
+	<item name="tnt" count="1,2"/>
+</append>
+
+</config>

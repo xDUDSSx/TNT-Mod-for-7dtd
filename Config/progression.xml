@@ -1,0 +1,5 @@
+<config>
+
+<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='3,5']/@tags">,tnt</append>
+
+</config>

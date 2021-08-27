@@ -1,0 +1,62 @@
+<config>
+	<append xpath="/items">
+		<item name="tntDetonatorFuseAmmo">
+			<property name="DisplayType" value="ammoArrow"/>
+			<property name="DescriptionKey" value="tntDetonatorFuseAmmoDesc"/>
+			<property name="Tags" value="ammo,ranged,attAgility,perkArchery,perkPenetrator"/>
+			<property name="CustomIcon" value="detonatorFuse"/>
+			<!-- <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrowPrefab.prefab"/> -->
+			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketPrefab.prefab"/>
+			<property name="HoldType" value="45"/>
+			<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="IsSticky" value="false"/>
+			<property name="StickyOffset" value=".5"/>
+			<property name="StickyColliderUp" value="2"/>
+			<property name="StickyColliderRadius" value=".05"/>
+			<property name="StickyColliderLength" value="1"/>
+			<property name="Material" value="Mwood"/>
+			<property name="Stacknumber" value="15"/>
+			<property name="EconomicValue" value="12"/>
+			<property name="EconomicBundleSize" value="5"/>
+			<property name="Group" value="Ammo/Weapons,Basics"/>
+			<property class="Action1">
+				<property name="Class" value="Projectile"/>
+				<property name="Explosion.ParticleIndex" value="12"/>
+				<property name="Explosion.RadiusBlocks" value="0.45"/>
+				<property name="Explosion.BlockDamage" value="1"/>
+				<property name="Explosion.RadiusEntities" value="1"/>
+				<property name="Explosion.EntityDamage" value="0"/>
+				<property name="Explosion.BlockTags" value="tnt,tntFuse"/>
+				<property name="Explosion.DamageBonus.tags" value="1000"/>
+				<property name="Explosion.DamageBonus.stone" value="0"/>
+				<property name="Explosion.DamageBonus.metal" value="0"/>
+				<property name="Explosion.DamageBonus.earth" value="0"/>
+				<property name="Explosion.DamageBonus.wood" value="0"/>
+				<property name="Explosion.DamageBonus.water" value="1"/>
+				
+				<property name="Velocity" value="9"/>
+				<property name="Gravity" value="-50"/>
+				<property name="LifeTime" value=".12"/>
+				<!-- <property name="CollisionRadius" value=".5"/> -->			
+			</property>
+			
+			<effect_group name="tntDetonatorFuseEf" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="0"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+			</effect_group>
+		</item>
+		
+		<item name="tntSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="tntNew"/>
+			<property name="Unlocks" value="tnt"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="tnt" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+	</append>
+</config>
