@@ -8,6 +8,23 @@
 			<ingredient name="resourceDuctTape" count="2"/>
 		</recipe>
 		
+		<recipe name="tntIed" count="1" craft_area="workbench" craft_time="30">
+				<ingredient name="resourceMechanicalParts" count="1"/>
+				<ingredient name="resourceGunPowder" count="35"/>
+				<ingredient name="resourceForgedIron" count="5"/>
+				<ingredient name="resourceSpring" count="3"/>
+				<ingredient name="ammoGasCan" count="100"/>
+				<ingredient name="resourceDuctTape" count="1"/>
+		</recipe>
+	
+		<recipe name="tntC4" count="1" craft_area="workbench" craft_time="12">
+			<ingredient name="resourceForgedIron" count="4"/>
+			<ingredient name="resourceGunPowder" count="50"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="resourceCrushedSand" count="10"/>
+		</recipe>
+		
 		<recipe name="tntDynamiteStick" count="1" craft_time=".5">
 			<ingredient name="thrownDynamite" count="1"/>
 		</recipe>

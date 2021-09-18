@@ -2,8 +2,8 @@
 <xml>
 	<ModInfo>
 		<Name value="TNT Mod" />
-		<Description value="A mod that adds placable explosive blocks like TNT and dynamite as well as utility blocks that allow connecting explosives together using special explosives or electricity." />
+		<Description value="A mod that adds placable explosive blocks like TNT, C4, IED and dynamite as well as utility blocks that allow connecting explosives together using special explosives or electricity." />
 		<Author value="DUDSS" />
-		<Version value="1.0.0" />
+		<Version value="1.1.0" />
 	</ModInfo>
 </xml>

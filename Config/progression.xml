@@ -2,4 +2,8 @@
 
 <append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='3,5']/@tags">,tnt</append>
 
+<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='3,5']/@tags">,tntC4</append>
+
+<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='2,5']/@tags">,tntIed</append>
+
 </config>
