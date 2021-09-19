@@ -1,7 +1,7 @@
 TNT Mod for 7 Days to die
 by DUDSS (https://community.7daystodie.com/profile/95122-dudss/)
 
-v1.0.0
+v1.1.0
 
 Licensed under Attribution-NonCommercial-NoDerivatives 4.0 International (https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
@@ -10,10 +10,11 @@ How to install:
 2. Done!
 
 Description:
-This mod adds placable explosive blocks like TNT and dynamite as well as utility blocks that allow connecting explosives together using special explosives or electricity.
+This mod adds placable explosive blocks. Being TNT, C4, IED and dynamite as well as utility blocks that allow connecting explosives together using special explosives or electricity.
 The goal of this mod is to make controlled explosions easier to achieve. The only meaningful explosive in the game up until now is throwable dynamite that when placed on the ground eventually despawns.
 
-Now there is the placable dynamite block that has the same stats as throwable dynamite. For more destruction there is the TNT block with more range and damage.
+Now there is placable dynamite block that has the same stats as throwable dynamite. For more destruction, there is the TNT block with more range and damage.
+C4 is very similar to TNT, only difference is it doesn't damage dirt. This is useful when used as a breaching charge as the ground below a wall won't get damaged. Finally, IED is an explosive purely meant to be used against zombies and players, it deals damage comparable to 3-4 grenades. It doesn't damage terrain/buildings much.
 
 To achieve more control over explosions two new chaining explosives were added. Detcord and explosion chainer.
 Both of these do not deal any damage but trigger the bigger explosives when detonated nearby.
